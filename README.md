@@ -1,2 +1,0 @@
-# zxj
-my assignment

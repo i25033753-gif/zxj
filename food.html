@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wuhan Food · Breakfast of Champions</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="wuhan-page food-wuhan">
+
+<header class="header-wave">
+  <div class="header-container">
+    <div class="logo">🥢Wuhan Breakfast Culture</div>
+    <nav>
+      <a href="index.html">City Pulse</a>
+      <a href="food.html" class="active">Food & Flavors</a>
+    </nav>
+  </div>
+</header>
+
+<!-- Hero with floating bowls -->
+<section class="food-hero-wuhan">
+  <div class="food-hero-bg"></div>
+  <div class="food-hero-content">
+    <h1> The Art of Morning Feasts</h1>
+    <p>Wuhan people never skip breakfast – they line up for noodles, soup, rice rolls, and fried breadsticks with passion.</p>
+  </div>
+</section>
+
+<!-- Card stack (unique vertical cascade) -->
+<section class="card-stack">
+  <div class="stack-card">
+    <div class="stack-img"><img src="images/reganmian.jpg" alt="Reganmian"></div>
+    <div class="stack-text">
+      <h2>🍜 Reganmian · Hot Dry Noodles</h2>
+      <p>Sesame paste, chili oil, pickled radish, and scallions tossed with alkaline noodles. Wuhan's undisputed breakfast king. Over 5 million bowls are consumed daily!</p>
+      <div class="food-tag"># Sesame paste # Premature soul</div>
+    </div>
+  </div>
+  <div class="stack-card reverse">
+    <div class="stack-img"><img src="images/doupi.jpg" alt="Doupi"></div>
+    <div class="stack-text">
+      <h2>🥘 Doupi · Three-Delicious Rice Pancake</h2>
+      <p>A crispy egg crepe filled with sticky rice, mushrooms, pork, and dried tofu. It's a hearty, savory handheld meal.</p>
+      <div class="food-tag"># Three Delicacies Bean Curd Sheets # Crispy on the outside and soft on the inside</div>
+    </div>
+  </div>
+  <div class="stack-card">
+    <div class="stack-img"><img src="images/miantang.jpg" alt="Miantang"></div>
+    <div class="stack-text">
+      <h2>🍲 Miantang · Noodle Soup with Beef</h2>
+      <p>Spicy beef noodle soup – a warming, tongue-numbing bowl perfect for cold mornings.</p>
+      <div class="food-tag">#Beef noodles # The aroma of chili oil wafts through the air.</div>
+    </div>
+  </div>
+</section>
+
+<!-- full width morning market scene -->
+<section class="morning-market">
+  <img src="images/hubu_alley.jpg" alt="Hubu Alley breakfast street">
+  <div class="market-caption">
+    <h2>🏮 Hubu Alley · 100+ Breakfast Stalls</h2>
+    <p>A food paradise where you can taste 30+ varieties of local breakfast in one morning.</p>
+  </div>
+</section>
+
+<!-- snack gallery (circular hover) -->
+<section class="snack-circle">
+  <div class="circle-title">🍢 More Wuhan Bites</div>
+  <div class="circle-grid">
+    <div class="circle-item">
+      <img src="images/mianwo.jpg" alt="Mianwo">
+      <span> Fried Donut</span>
+    </div>
+    <div class="circle-item">
+      <img src="images/shagulou.jpg" alt="ShaGuLou">
+      <span> Lotus Root Soup</span>
+    </div>
+    <div class="circle-item">
+      <img src="images/xiaolongxia.jpg" alt="XiaoLongXia">
+      <span> Crayfish</span>
+    </div>
+    <div class="circle-item">
+      <img src="images/lianou.jpg" alt="LianOu">
+      <span> Fried Lotus Sandwich</span>
+    </div>
+  </div>
+</section>
+
+<!-- cultural insight -->
+<section class="bubble-text">
+  <h2>🌅 More Than a Meal</h2>
+  <p>“Guozao” literally means “crossing the morning”. In Wuhan, breakfast is a ritual – people eat on the go, standing, or squatting by the street. The variety is staggering: over 100 types of breakfast items exist. This culture earned Wuhan the title “Breakfast Capital of China”.</p>
+  <p>Join the queue, grab a stool, and experience the city's most authentic rhythm.</p>
+</section>
+
+<!-- random food facts module -->
+<section class="interactive-module wuhan-module">
+  <div class="module-inner">
+    <h2>🎲 Random Food Facts</h2>
+    <div class="fact-card" id="foodFactDisplay">
+      <p id="funFactText">Click to reveal a tasty Wuhan legend 🥢</p>
+    </div>
+    <button class="vibrant-btn" id="randomFoodFactBtn">🍜 Random Bite</button>
+  </div>
+</section>
+
+<footer class="footer-wuhan">
+  <a href="index.html" class="footer-link">🏠 Back to City</a>
+  <p>Wuhan Food Stories </p>
+</footer>
+
+<div id="lightbox" class="lightbox">
+  <span class="close-lightbox">&times;</span>
+  <img class="lightbox-content" id="lightbox-img">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
